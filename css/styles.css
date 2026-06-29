@@ -1,0 +1,558 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  border: none;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.Nav__Items,
+.ItemsRight {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+.Navi {
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 150%;
+}
+
+.Container {
+  width: 1130px;
+  max-width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Divider__Horizontal {
+  height: 1px;
+  width: 100%;
+  background: #00000026;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Main__2 > .Divider__Horizontal {
+  width: 1099px;
+}
+
+.LDP__Header__GlobalNav__Web__Desktop {
+  padding: 0 15px;
+  background-color: #ffffff;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav__Items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ItemsRight {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ItemRight {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Header__Icon {
+  padding: 0 12px 0 4px;
+}
+
+.Divider__Vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Divider__Vertical .Divi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1px;
+  height: 16px;
+  background: #00000026;
+}
+
+.Header > .Divider__Horizontal {
+  width: 100%;
+}
+
+.Navi {
+  padding: 0 15px;
+  background-color: #ffffff;
+  min-height: 64px;
+  display: flex;
+  gap: 24px;
+}
+
+.Header__Menu {
+  flex: 1;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+/* Main */
+
+.LDP__News__Cluster__Top__Web__Desktop .Content {
+  background: #ffffff;
+  height: 632px;
+  display: flex;
+}
+
+.Column {
+  width: 798px;
+  height: 100%;
+  background: white;
+}
+
+._LDP__News__Item__Web__Desktop {
+  background: white;
+  height: 332px;
+  padding-top: 16px;
+  padding-left: 16px;
+  display: flex;
+}
+
+._LDP__News__Item__Web__Desktop .TextContainer {
+  width: 266px;
+  height: 300px;
+  padding: 16px;
+}
+
+._LDP__News__Item__Web__Desktop .TextContainer .Title {
+  display: block;
+  height: 72px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+  line-height: 160%;
+}
+
+._LDP__News__Item__Web__Desktop .TextContainer .Lead {
+  display: block;
+  height: 136px;
+  padding-bottom: 16px;
+  line-height: 150%;
+  font-size: 1.6rem;
+  color: #5f5f5f;
+}
+
+.MetaContainer .Meta__Section {
+  display: flex;
+  gap: 16px;
+  height: 24px;
+  color: #9f9f9f;
+  line-height: 150%;
+  font-size: 1.2rem;
+  font-family: "Merriweather", serif;
+}
+
+.Icon__Comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 0 4px;
+}
+
+.Icon__Comment img {
+  width: 16px;
+  height: 16px;
+}
+
+.Container__Count {
+  color: #b13460;
+  padding-bottom: 4px;
+  font-size: 1.2rem;
+}
+
+.LDP__News__Cluster__Top__Web__Desktop .Row {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  gap: 32px;
+  padding: 16px 16px 0 16px;
+}
+
+.Row__Item .TextContainer {
+  width: 234px;
+  color: #202020;
+  line-height: 160%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.Column > .Divider__Horizontal {
+  width: 766px;
+}
+
+.Column__300 {
+  width: 332px;
+  height: 100%;
+  color: #00000066;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Column__300 .Column__300__Inner {
+  background: #f2ca4e;
+  width: 300px;
+  height: 600px;
+}
+
+/* ADS */
+
+.Ads__Desktop {
+  width: 1130px;
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Ads__Inner {
+  width: 1098px;
+  height: 250px;
+  margin: auto;
+  background: #f2ca4e;
+}
+
+.Ads__Desktop > .Divider__Horizontal {
+  width: 1099px;
+}
+
+.LDP__News__Cluster__Top__Web__Desktop > .Divider__Horizontal {
+  width: 1099px;
+}
+
+/* Main__2 */
+.Main__2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Main__2__Left {
+  width: 798px;
+  padding: 0 16px;
+}
+
+.Main__2__Item {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.Main__2__Item .ThumbnailContainer {
+  width: 240px;
+  height: 144px;
+}
+
+.Main__2__Item .Title {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 160%;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+.Main__2__Item .Lead {
+  display: block;
+  font-size: 1.7rem;
+  line-height: 150%;
+  color: #5f5f5f;
+  padding-bottom: 16px;
+  border-radius: 4px;
+}
+
+.Main__2__Item__Skeleton,
+.Main__2__Item__Skeleton__Ads {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.Skeleton__Right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+}
+
+.Skeleton__Meta {
+  display: flex;
+  gap: 12px;
+  align-items: start;
+}
+
+.Skeleton__Block {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.Main__2__Item__Skeleton__Ads .Skeleton__Block {
+  background: #f2ca4e;
+}
+
+.Main__2__Card > .Divider__Horizontal {
+  width: 766px;
+}
+
+.Main__2__Ads {
+  background: #f2ca4e;
+  width: 300px;
+  height: 600px;
+  margin: 16px;
+}
+
+.Main__2__Ads .Inner {
+  background: #f2ca4e;
+}
+
+.Pagination {
+  width: 798px;
+  padding: 16px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.Pagination .Page__Curent {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #36444c00;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: #b13460;
+  border: 1px solid;
+  border-color: #db7499;
+  transition: background-color 0.2s linear;
+}
+
+.Pagination .Page__Curent:hover {
+  background: #b134601a;
+}
+
+.Pagination .Page__Other {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #36444c00;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: #5f5f5f;
+  transition: background-color 0.2s linear;
+}
+
+.Pagination .Page__Other:hover {
+  background: #f3f3f3;
+}
+
+.Break__Page {
+  height: 314px;
+  display: flex;
+}
+
+.Break__Page .Inner {
+  height: 250px;
+  width: 970px;
+  background: #f2ca4e;
+  margin: auto;
+}
+
+/* FOOTER */
+
+.Row__1,
+.Row__2,
+.Row__3 {
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 150%;
+}
+
+.Row__1,
+.Row__2,
+.Row__3 {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.Footer h4 {
+  font-weight: 700;
+}
+
+.Footer .Divider__Horizontal {
+  width: 1098px;
+}
+
+.Row__1 {
+  padding: 24px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Row__1 .Button {
+  height: 32px;
+  padding: 12px;
+  display: flex;
+  gap: 8px;
+  background: #36444c00;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background-color 0.2s linear;
+}
+
+.Row__1 .Button:hover {
+  background: #f3f3f3;
+}
+
+.Row__1 .Button img {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+
+.Ultility {
+  display: flex;
+  gap: 16px;
+}
+
+.Ultility > Button:first-of-type {
+  color: #c14872;
+  transition: background-color 0.2s linear;
+}
+
+.Ultility > Button:first-of-type:hover {
+  background: #b13460;
+}
+
+.Row__1 .Share {
+  height: 32px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Row__1 .Share .Button {
+  height: 32px;
+  width: 32px;
+}
+
+.Row__2 {
+  display: flex;
+  gap: 32px;
+  padding: 16px;
+}
+
+.Row__2 h4 {
+  height: 20px;
+}
+
+.Intro {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Intro .Block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.Intro .Block .Row {
+  display: flex;
+  gap: 4px;
+}
+
+.Intro .Block .Text__Left {
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 345px;
+}
+
+.Info .Block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.Info .Block .Row {
+  display: flex;
+  gap: 4px;
+}
+
+.Info .Block .Text__Left {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.Row__2 .Extra {
+  border-radius: 10px;
+}
+
+.Row__3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
