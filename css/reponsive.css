@@ -49,6 +49,7 @@
 
   .Main__2__Item {
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   .Main__2__Item__Skeleton,

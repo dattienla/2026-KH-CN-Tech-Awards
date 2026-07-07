@@ -178,6 +178,11 @@ h5 {
   display: flex;
   gap: 18px;
   align-items: center;
+  overflow-x: auto;
+}
+
+.Header__Menu > * {
+  flex-shrink: 0;
 }
 
 /* Main */
@@ -208,8 +213,7 @@ h5 {
 }
 
 ._LDP__News__Item__Web__Desktop .TextContainer {
-  width: 266px;
-  height: 300px;
+  flex: 1;
   padding: 16px;
 }
 
