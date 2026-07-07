@@ -178,11 +178,6 @@ h5 {
   display: flex;
   gap: 18px;
   align-items: center;
-  overflow-x: auto;
-}
-
-.Header__Menu > * {
-  flex-shrink: 0;
 }
 
 /* Main */

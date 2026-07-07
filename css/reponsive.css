@@ -21,6 +21,11 @@
 
   .Header__Menu {
     padding: 12px 0;
+    overflow-x: auto;
+  }
+
+  .Header__Menu > * {
+    flex-shrink: 0;
   }
 
   .Header .mgbottom__16 {
