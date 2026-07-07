@@ -1,0 +1,160 @@
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .ItemsRight > :nth-child(1),
+  .ItemsRight > :nth-child(2) {
+    display: none;
+  }
+
+  .ItemsRight > :nth-child(4) span {
+    display: none;
+  }
+
+  .Navi {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .Navi .Divider__Horizontal {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+  }
+
+  .Header__Menu {
+    padding: 12px 0;
+  }
+
+  .Header .mgbottom__16 {
+    margin-bottom: 0;
+  }
+
+  .Main__2__Inner {
+    padding-top: 0;
+  }
+
+  .Main__2__Left > :nth-child(1) .Main__2__Item {
+    padding-top: 0;
+  }
+
+  .Main__top {
+    display: none;
+  }
+
+  .Ads__Desktop {
+    display: none;
+  }
+
+  .Main__2__Right {
+    display: none;
+  }
+
+  .Main__2__Item {
+    flex-direction: column;
+  }
+
+  .Main__2__Item__Skeleton,
+  .Main__2__Item__Skeleton__Ads {
+    flex-direction: column-reverse;
+  }
+
+  .Skeleton__Right > :nth-child(1) {
+    width: calc(100% - 32px);
+    height: 24px;
+  }
+
+  .Skeleton__Right > :nth-child(2) {
+    width: calc(100% - 132px);
+    height: 24px;
+  }
+
+  .Skeleton__Right > :nth-child(3) {
+    width: calc(100% - 32px);
+    height: 16px;
+  }
+
+  .Skeleton__Right > :nth-child(4) {
+    width: calc(100% - 82px);
+    height: 16px;
+  }
+
+  .Main__2__Left .thumbnail {
+    width: 100%;
+  }
+
+  .Main__2__Left > .Main__2__Card:first-of-type .thumbnail {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+  }
+
+  .MetaContainer {
+    display: none;
+  }
+
+  .Skeleton__Meta {
+    display: none;
+  }
+
+  .ADS {
+    display: none;
+  }
+
+  .Footer .Row__0 {
+    display: none;
+  }
+
+  .Row__1 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "back share"
+      "feedback feedback"
+      "term term";
+    gap: 12px;
+  }
+
+  .Ultility {
+    display: contents;
+  }
+
+  .Row__1 > .Button {
+    grid-area: back;
+    margin-bottom: 14px;
+  }
+
+  .Share {
+    grid-area: share;
+  }
+
+  .Ultility > .Button:first-child {
+    grid-area: feedback;
+  }
+
+  .Ultility > .Button:nth-child(2) {
+    grid-area: term;
+  }
+
+  .Row__1 .Divider__Vertical {
+    display: none;
+  }
+
+  .Row__2 {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "info"
+      "extra"
+      "intro";
+  }
+
+  .Row__2 .Info {
+    grid-area: info;
+  }
+
+  .Row__2 .Intro {
+    grid-area: intro;
+  }
+
+  .Row__2 .Extra {
+    grid-area: extra;
+  }
+}

@@ -29,6 +29,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.mg__16 {
+  margin: 16px;
+}
+
+.mgtop__16 {
+  margin-top: 16px;
+}
+
+.mgbottom__16 {
+  margin-bottom: 16px;
+}
+
+.mgright__16 {
+  margin-right: 16px;
+}
+
+.mgleft__16 {
+  margin-left: 16px;
+}
+
+.w__full {
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -46,11 +70,6 @@ h5 {
   line-height: 150%;
 }
 
-.Navi {
-  font-family: "Merriweather Sans", sans-serif;
-  line-height: 150%;
-}
-
 .Container {
   width: 1130px;
   max-width: 100%;
@@ -61,18 +80,38 @@ h5 {
 
 .Divider__Horizontal {
   height: 1px;
-  width: 100%;
   background: #00000026;
   margin-left: auto;
   margin-right: auto;
 }
 
-.Main__2 > .Divider__Horizontal {
-  width: 1099px;
+.thumbnail {
+  display: block;
+  aspect-ratio: 5/3;
+}
+
+._LDP__News__Item__Web__Desktop .thumbnail {
+  width: 500px;
+}
+
+.Main__top .Row .thumbnail {
+  width: 234px;
+}
+
+.Main__2__Card .thumbnail {
+  width: 240px;
+}
+
+.thumb__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .LDP__Header__GlobalNav__Web__Desktop {
-  padding: 0 15px;
+  padding: 0 16px;
   background-color: #ffffff;
   min-height: 40px;
   display: flex;
@@ -125,11 +164,13 @@ h5 {
 }
 
 .Navi {
-  padding: 0 15px;
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 150%;
   background-color: #ffffff;
   min-height: 64px;
   display: flex;
   gap: 24px;
+  padding: 0 16px;
 }
 
 .Header__Menu {
@@ -141,24 +182,29 @@ h5 {
 
 /* Main */
 
+.LDP__News__Cluster__Top__Web__Desktop {
+  padding: 0 16px;
+}
+
 .LDP__News__Cluster__Top__Web__Desktop .Content {
   background: #ffffff;
   height: 632px;
   display: flex;
+  gap: 32px;
 }
 
 .Column {
-  width: 798px;
   height: 100%;
-  background: white;
+  flex: 1;
+  min-width: 0;
 }
 
 ._LDP__News__Item__Web__Desktop {
-  background: white;
-  height: 332px;
-  padding-top: 16px;
-  padding-left: 16px;
   display: flex;
+}
+
+.TextContainer {
+  flex-grow: 1;
 }
 
 ._LDP__News__Item__Web__Desktop .TextContainer {
@@ -216,14 +262,11 @@ h5 {
 
 .LDP__News__Cluster__Top__Web__Desktop .Row {
   width: 100%;
-  height: 300px;
   display: flex;
   gap: 32px;
-  padding: 16px 16px 0 16px;
 }
 
-.Row__Item .TextContainer {
-  width: 234px;
+.Column .Row .TextContainer {
   color: #202020;
   line-height: 160%;
   font-size: 1.6rem;
@@ -233,16 +276,12 @@ h5 {
 }
 
 .Column > .Divider__Horizontal {
-  width: 766px;
+  max-width: 766px;
 }
 
 .Column__300 {
-  width: 332px;
   height: 100%;
-  color: #00000066;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .Column__300 .Column__300__Inner {
@@ -256,6 +295,7 @@ h5 {
 .Ads__Desktop {
   width: 1130px;
   height: 298px;
+  padding: 0 16px;
   display: flex;
   flex-direction: column;
 }
@@ -268,33 +308,24 @@ h5 {
 }
 
 .Ads__Desktop > .Divider__Horizontal {
-  width: 1099px;
+  max-width: 1099px;
 }
 
 .LDP__News__Cluster__Top__Web__Desktop > .Divider__Horizontal {
-  width: 1099px;
+  max-width: 1099px;
 }
 
 /* Main__2 */
-.Main__2 {
+.Main__2__Inner {
   display: flex;
-  flex-wrap: wrap;
-}
-
-.Main__2__Left {
-  width: 798px;
-  padding: 0 16px;
+  padding: 16px 16px 0 16px;
+  gap: 32px;
 }
 
 .Main__2__Item {
   display: flex;
   gap: 16px;
   padding: 16px 0;
-}
-
-.Main__2__Item .ThumbnailContainer {
-  width: 240px;
-  height: 144px;
 }
 
 .Main__2__Item .Title {
@@ -329,6 +360,30 @@ h5 {
   align-items: start;
 }
 
+.Skeleton__Right > :nth-child(1) {
+  width: 496px;
+  max-width: 100%;
+  height: 24px;
+}
+
+.Skeleton__Right > :nth-child(2) {
+  width: 360px;
+  max-width: 100%;
+  height: 24px;
+}
+
+.Skeleton__Right > :nth-child(3) {
+  width: 510px;
+  max-width: 100%;
+  height: 16px;
+}
+
+.Skeleton__Right > :nth-child(4) {
+  width: 448px;
+  max-width: 100%;
+  height: 16px;
+}
+
 .Skeleton__Meta {
   display: flex;
   gap: 12px;
@@ -345,23 +400,12 @@ h5 {
 }
 
 .Main__2__Card > .Divider__Horizontal {
-  width: 766px;
-}
-
-.Main__2__Ads {
-  background: #f2ca4e;
-  width: 300px;
-  height: 600px;
-  margin: 16px;
-}
-
-.Main__2__Ads .Inner {
-  background: #f2ca4e;
+  max-width: 766px;
 }
 
 .Pagination {
-  width: 798px;
-  padding: 16px;
+  width: 100%;
+  padding: 16px 0;
   display: flex;
   gap: 8px;
   justify-content: flex-end;
@@ -402,6 +446,7 @@ h5 {
 .Break__Page {
   height: 314px;
   display: flex;
+  padding: 0 16px;
 }
 
 .Break__Page .Inner {
@@ -409,6 +454,10 @@ h5 {
   width: 970px;
   background: #f2ca4e;
   margin: auto;
+}
+
+.Main__2 > .Divider__Horizontal {
+  max-width: 1099px;
 }
 
 /* FOOTER */
@@ -432,13 +481,21 @@ h5 {
 }
 
 .Footer .Divider__Horizontal {
-  width: 1098px;
+  max-width: 1098px;
+}
+
+.Footer__Inner {
+  padding: 0 16px;
 }
 
 .Row__1 {
-  padding: 24px 16px;
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
+}
+
+.Row__0 .Navi {
+  padding: 0;
 }
 
 .Row__1 .Button {
@@ -446,7 +503,7 @@ h5 {
   padding: 12px;
   display: flex;
   gap: 8px;
-  background: #36444c00;
+  background: #f3f3f3;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
@@ -493,7 +550,7 @@ h5 {
 .Row__2 {
   display: flex;
   gap: 32px;
-  padding: 16px;
+  padding: 16px 0;
 }
 
 .Row__2 h4 {
@@ -554,5 +611,5 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px;
+  padding: 16px 0px;
 }
