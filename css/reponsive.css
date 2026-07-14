@@ -82,11 +82,11 @@
     height: 16px;
   }
 
-  .Main__2__Left .thumbnail {
+  .Main__2__Left .ThumbnailContainer {
     width: 100%;
   }
 
-  .Main__2__Left > .Main__2__Card:first-of-type .thumbnail {
+  .Main__2__Left > .Main__2__Card:first-of-type .ThumbnailContainer {
     width: calc(100% + 32px);
     margin-left: -16px;
   }

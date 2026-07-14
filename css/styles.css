@@ -93,16 +93,18 @@ h5 {
   aspect-ratio: 5/3;
 }
 
-._LDP__News__Item__Web__Desktop .thumbnail {
+._LDP__News__Item__Web__Desktop .ThumbnailContainer {
   width: 500px;
+  flex-shrink: 0;
 }
 
 .Main__top .Row .ThumbnailContainer {
   width: 100%;
 }
 
-.Main__2__Card .thumbnail {
+.Main__2__Card .ThumbnailContainer {
   width: 240px;
+  flex-shrink: 0;
 }
 
 .thumb__img {
