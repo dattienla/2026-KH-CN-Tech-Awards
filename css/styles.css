@@ -87,6 +87,9 @@ h5 {
 
 .thumbnail {
   display: block;
+}
+
+.thum__5-3 {
   aspect-ratio: 5/3;
 }
 
@@ -94,8 +97,8 @@ h5 {
   width: 500px;
 }
 
-.Main__top .Row .thumbnail {
-  width: 234px;
+.Main__top .Row .ThumbnailContainer {
+  width: 100%;
 }
 
 .Main__2__Card .thumbnail {
